@@ -7,13 +7,12 @@ import pandas as pd
 base_dir = '.'
 
 # Directory where the selected npz files will be copied to
-target_base_dir = './dataset3'
+target_base_dir = 'path/to/dataset'
 
 # List of directories to exclude
-exclude_dirs = ['1178', '1181', '1295', '1296', '1300', '1525', '168', '1783', '1855', '1856', '1920', '1923', '1924', '2374', '2377'] 
-#+ ['1685', '1716', '1766', '1744', '229', '233']  
+exclude_dirs = ['1178', '1181', '1295', '1296', '1300', '1525', '168', '1783', '1855', '1856', '1920', '1923', '1924', '2374', '2377']  
 
-csv_path = 'C:/Users/shrey/SICKLE/sickle_toy_dataset/sickle_dataset_tabular.csv'
+csv_path = 'path/to/sickle_dataset_tabular.csv'
 df = pd.read_csv(csv_path)
 
 # Desired array shapes
